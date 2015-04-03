@@ -1,0 +1,79 @@
+
+ <body>
+ <!-- 导航条 -->
+ <div class="container color1">
+ <p class="pull-right">2015年3月31日发布</p>
+ <p>上海</p>
+</div>
+<!-- 模块 -->
+<div class="container">
+  <div class="row" >
+  <% (1..5) .each do |channel_index|%>
+    <div class="col-xs-6 col-md-3">
+          <div class="background">
+          <div class="row">
+	    <div class="col-xs-4"><%= image_tag @channel_image["#{channel_index}"] , class:"photo "%></div>
+                 <div class="col-xs-1 no-padding"><span class="glyphicon glyphicon-search icon-search"></span></div>
+	   <div class="col-xs-7"><div class=" duiqi color1"><%= @channel_matter["#{channel_index}"] %> <br>气象风险</div></div>
+         </div>
+            <div class="row">
+              <div class="col-xs-2 font-md text-center"><p class="zi">今</p></div>
+              <div class="col-xs-10">
+                    <div class="row state-size">
+                      <div class="col-xs-15 state"> </div>
+                      <div class="col-xs-15 state"> </div>
+                      <div class="col-xs-15 state"> </div>
+                      <div class="col-xs-15 state"> </div>
+                      <div class="col-xs-15 state"> </div>
+                    </div>
+              </div>
+            </div>
+ 
+            <div class="row">
+              <div class="col-xs-2 font-md text-center"><p class="zi">明</p></div>
+              <div class="col-xs-10">
+                    <div class="row state-size">
+                      <div class="col-xs-15 state"> </div>
+                      <div class="col-xs-15 state"> </div>
+                      <div class="col-xs-15 state"> </div>
+                      <div class="col-xs-15 state"> </div>
+                      <div class="col-xs-15 state"> </div>
+                    </div>
+              </div>
+            </div>
+
+         </div>
+    </div>	  	     
+  <% end %>
+        <div class="col-xs-6 col-md-3">
+          <div class="background">
+          <p class="duiqi2"><br><br><br><br></p>
+          </div>
+        </div>
+  </div>
+</div>
+<div class="container">
+        <div class="row font-md">
+                 <div class="col-xs-offest-1 col-xs-10 col-md-3">
+                 <div class="col-xs-15 text-center state1" style="background-color: #32B16C">低</div>
+                 <div class="col-xs-15 text-center state1" style="background-color: #00A0E9">轻微</div>
+                 <div class="col-xs-15 text-center state1" style="background-color: #FFF100">中等</div>
+                 <div class="col-xs-15 text-center state1" style="background-color: #F39800">较高</div>
+                 <div class="col-xs-15 text-center state1" style="background-color: #F00">高</div>
+               </div>
+        </div>
+</div>
+
+  <div class="container">
+  <div class="background">
+	<footer class="color2">
+	    <h4 class="text">疾病风险气象预报说明</h4>
+	    <p >&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp疾病风险预报产品主要有分人群感冒、儿童哮喘、慢性阻塞性肺病（COPD）以及中暑四个产品。通过流行病学研究，确定影响疾病的气象环境因素，建立预测预报模型，根据天气预报和空气质量预报结果，确定疾病的风险等级，针对易感人群和不利天气，给出预防建议。</p>
+	  </footer>
+</div>
+</div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>

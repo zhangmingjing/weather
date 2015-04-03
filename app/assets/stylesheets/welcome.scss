@@ -1,0 +1,122 @@
+// Place all the styles related to the welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import "jianju";
+.color1{
+	color: white;
+             padding-top: 12px;
+}
+    .photo{
+             width: 100%;
+             margin-bottom: 10px;
+             padding-left: 5px;
+             padding-top: 10px;
+    }
+
+     .duiqi{
+
+     	font-size: 14px;
+     	text-align: center;
+     }
+     .duiqi2{
+     	padding-bottom: 52px;
+     }
+     .background{
+
+                background-color: rgba(0,0,0,0.1);
+                margin-top: 10px;
+     }
+.text{
+    text-align: center;
+}
+.color2{
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.icon-search{
+    color: #fff;
+    font-size: 8px;
+    vertical-align: text-bottom;
+    padding-top: 15px;
+}
+.no-padding{
+	padding: 0px !important;
+}
+.font-md{
+    color: #fff;
+    font-size: 14px;
+
+}
+.zi{
+    padding-left: 3px;
+}
+.text-center{
+    text-align: center;
+}
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 2px;
+    padding-left: 2px;
+}
+
+.col-xs-15 {
+    width: 18%;
+    float: left;
+    margin-right: 1px;
+}
+
+@media (min-width: 768px) {
+.col-sm-15 {
+        width: 18%;
+        float: left;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-15 {
+        width: 18%;
+        float: left;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-lg-15 {
+        width: 18%;
+        float: left;
+    }
+}
+.state{
+    display: inline-block;
+    border-radius: 3px;
+    color: #fff;
+    text-align: center;
+    background-color: #8790b0;
+    height: 14px;
+    width: 17%;
+    display: inline-block;
+}
+.state-size{
+	line-height: 12px;
+              margin-top: 3px;
+}
+.col-xs-offest-1{
+	margin-left: 8.33333%;
+
+}
+.state1{
+    display: inline-block;
+    border-radius: 3px;
+    color: #fff;
+    text-align: center;
+    background-color: #8790b0;
+    height: 20px;
+    width: 45px;
+   display: inline-block;
+}

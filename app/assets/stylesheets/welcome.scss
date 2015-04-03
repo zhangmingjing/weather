@@ -2,11 +2,12 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 @import "jianju";
+
 .color1{
 	color: white;
              padding-top: 12px;
 }
-    .photo{
+.photo{
              width: 100%;
              margin-bottom: 10px;
              padding-left: 5px;
@@ -93,14 +94,12 @@
     }
 }
 .state{
-    display: inline-block;
     border-radius: 3px;
     color: #fff;
     text-align: center;
     background-color: #8790b0;
     height: 14px;
     width: 17%;
-    display: inline-block;
 }
 .state-size{
 	line-height: 12px;
@@ -111,12 +110,8 @@
 
 }
 .state1{
-    display: inline-block;
     border-radius: 3px;
     color: #fff;
     text-align: center;
     background-color: #8790b0;
-    height: 20px;
-    width: 45px;
-   display: inline-block;
 }

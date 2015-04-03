@@ -22,4 +22,7 @@ class WelcomeController < ApplicationController
 	              "5"=>"background-color: #F00",
        }
   end
+  def child_cold
+    
+  end
 end

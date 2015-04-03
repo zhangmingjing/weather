@@ -10,6 +10,7 @@
   <div class="row" >
   <% (1..5) .each do |channel_index|%>
     <div class="col-xs-6 col-md-3">
+    <a href="child_cold">
           <div class="background">
           <div class="row">
 	    <div class="col-xs-4"><%= image_tag @channel_image["#{channel_index}"] , class:"photo "%></div>
@@ -43,6 +44,7 @@
             </div>
 
          </div>
+         </a>
     </div>	  	     
   <% end %>
         <div class="col-xs-6 col-md-3">

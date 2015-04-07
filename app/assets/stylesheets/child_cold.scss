@@ -4,10 +4,11 @@
 	}
 	.navar{
 		padding: 15px 15px 0px;
+		padding-bottom: 5px;
 	}
 	.divider{
-		margin: 5px;
-                            border-color: rgba(140, 149, 177, 0.2);
+		margin:5px;
+              border-color: rgba(140, 149, 177, 0.2);
 	}
 	.baby{
 		color: white;
@@ -17,11 +18,14 @@
 		color: white;
 		font-size: 14px;		
 	}
-	 .font-md{
+	 .font-lg{
 	 	padding-top: 10px;
+	 	color: #fff;
+                            font-size: 14px;
 	 }
 	 .aim{
-	 	padding: 15px 15px  10px;
+	 	padding-top: 10px;
+	 	padding-left: 15px;
 	 }
 	 .aim1{
 	 	padding: 5px 15px 0px;
@@ -31,3 +35,40 @@
 	 	padding: 0px 15px 30px 0px;
 	 	padding-left: 15px;
 	 }
+       .state-1{
+       	background-color: #32B16C;
+	       border-radius: 3px;
+	       color: #fff;
+	       text-align: center;   	
+       }
+       .state-2{
+       	background-color: #00A0E9;
+ 	       border-radius: 3px;
+	       color: #fff;
+	       text-align: center;   	      	
+       }
+       .state-3{
+       	background-color: #FFF100;
+	       border-radius: 3px;
+	       color: #fff;
+	       text-align: center;   	       	
+       }
+       .state-4{
+       	background-color: #F39800;
+	       border-radius: 3px;
+	       color: #fff;
+	       text-align: center;   	      	
+       }
+       .state-5{
+       	background-color: #F00;
+	       border-radius: 3px;
+	       color: #fff;
+	       text-align: center;   	       	
+       }
+       .sample{
+       	    border-radius: 3px;
+		    color: #fff;
+		    text-align: center;
+		    height: 12px;
+		    width: 17%;
+       }

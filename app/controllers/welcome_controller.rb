@@ -14,12 +14,12 @@ class WelcomeController < ApplicationController
   		"4"=>"老人感冒",
   		"5"=>"慢性阻塞型肺病",
   	}
-              @channel_color = {
-	              "1"=>"background-color: #32B16C",
-	              "2"=>"background-color: #00A0E9",
-	              "3"=>"background-color: #FFF100",
-	              "4"=>"background-color: #F39800",
-	              "5"=>"background-color: #F00",
+      @channel_aim = {
+              "1"=>"child_cold",
+              "2"=>"child_asthma",
+              "3"=>"adult_cold",
+              "4"=>"old_cold",
+              "5"=>"lung_disease",
        }
   end
   def child_cold

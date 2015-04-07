@@ -1,0 +1,39 @@
+  <% (1..4) .each do |channel_index|%>
+       <div class="col-xs-6 col-md-3">
+       <%= link_to  @channel_id["#{channel_index}"][:aim]  do |i| %>
+              <div class="background">
+                      <div class="row">
+  	               <div class="col-xs-4"><%= image_tag @channel_id["#{channel_index}"][:image] , class:"photo "%></div>
+                      <div class="col-xs-1 no-padding"><span class="glyphicon glyphicon-search icon-search"></span></div>
+  	               <div class="col-xs-7"><div class=" duiqi color1"><%= @channel_id["#{channel_index}"][:matter] %> <br>气象风险</div></div>
+                      </div>
+              <div class="row">
+              <div class="col-xs-2 font-md text-center"><div class="character">今</div></div>
+              <div class="col-xs-10">
+                    <div class="row state-size">
+                      <div class="col-xs-15 state"> </div>
+                      <div class="col-xs-15 state"> </div>
+                      <div class="col-xs-15 sample state-3"> </div>
+                      <div class="col-xs-15 state"> </div>
+                      <div class="col-xs-15 state"> </div>
+                    </div>
+              </div>
+            </div>
+ 
+            <div class="row tomorrow">
+              <div class="col-xs-2 font-md text-center"><div class="character">明</div></div>
+              <div class="col-xs-10">
+                    <div class="row state-size">
+                      <div class="col-xs-15 state"> </div>
+                      <div class="col-xs-15 state"> </div>
+                      <div class="col-xs-15 sample state-3"> </div>
+                      <div class="col-xs-15 state"> </div>
+                      <div class="col-xs-15 state"> </div>
+                    </div>
+              </div>
+            </div>
+
+        </div>
+      <% end %>
+  </div>	  	     
+  <% end %>
